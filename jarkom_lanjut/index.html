@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Tittle -->
+    <title>Jaringan Komputer Lanjut - Lecture Notes</title>
+
+    <!-- bootstrap -->
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/ump.png" />
+
+    <!-- google fonts poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body class="bg-light">
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
+      aria-label="Main navigation"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lecture Notes</a>
+        <button
+          class="navbar-toggler p-0 border-0"
+          type="button"
+          id="navbarSideCollapse"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="navbar-collapse offcanvas-collapse"
+          id="navbarsExampleDefault"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://asrulabdullah99.github.io/"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/data_mining">Data Mining</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/jarkom_lanjut">Jarkom Lanjut</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/probstat">Prob Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/web_dasar">Pem Web Dasar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/rpl">RPL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mat_disk">Mat Diskrit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div
+        class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm"
+      >
+        <img class="me-3" src="images/ump.png" alt="" width="48" height="48" />
+        <div class="lh-1">
+          <h1 class="h5 mb-2 text-white lh-1">Jaringan Komputer Lanjut</h1>
+          <small>3 SKS 21IF522025</small>
+        </div>
+      </div>
+
+      <div class="card shadow rounded-3">
+        <div class="card-header py-3 h6">
+          Mata Kuliah Jaringan Komputer Lanjut
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <tr>
+                <th>No</th>
+                <th>Pertemuan</th>
+                <th>Materi</th>
+                <th>Material</th>
+                <th>Link</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Week 1</td>
+                <td>
+                  RPS, Kontrak Kuliah dan Pengantar Jaringan Komputer Lanjut
+                </td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >RPS</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >Kontrak Kuliah</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://docs.google.com/presentation/d/1Anwuzc4xAXKCHBffRzB7Ml2xoCOVgLxq/edit?usp=sharing&ouid=113804619739176014407&rtpof=true&sd=true"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Week 2</td>
+                <td>ECMP Load Balancing</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1yohaXf0DYuPnilusCl86urjaTi68s4aS/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Week 3</td>
+                <td>Administrative Distance dan ECMP Failover</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1NNE8iFAszUzH4FSSL5ldomYiBFP3Eows/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Week 4</td>
+                <td>Routing Mark dan TTL</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1I1zOWrYn25je-n-oQkHfVIxVSrV8rEhF/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Week 5</td>
+                <td>Scope dan Target Scope</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1uZcsbzcCa7Tp3ezXDmrzwLgL8nF9Aodu/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Week 6</td>
+                <td>OSPF</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1jO1Moqt70YoK5GE0HYdh6EifVxRHjsfF/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Week 7</td>
+                <td>Praktikum OSPF</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1KqcInKzLclSxtC4Yie-_GO4pCs0GFJZV/view?usp=sharing"
+                          >Slide</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Week 8</td>
+                <td>UAS</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >UAS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Week 9</td>
+                <td>UAS</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >Kuliah Umum Kapita Selekta</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Week 10</td>
+                <td>OSPF Non Backbone Area</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/14uNf2SrTsNFNCqC1eqaWGYtZ3ZLznqsa/view?usp=sharing"
+                          >OSPF Non Backbone Area</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Week 11</td>
+                <td>Virtual Link</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/112BNrt8kuM8WqpRpjaF-8n1Gso4w6YV9/view?usp=sharing"
+                          >Virtual Link</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Week 12</td>
+                <td>DR dan BDR</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/17i7DA3VmTDvjbY3kyIXjv7pyyTcyz_rw/view?usp=sharing"
+                          >DR dan BDR</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Week 13</td>
+                <td>LSA</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/14Bx2KiK8LcQkVZB9Ks3c4oISDKLS2UYJ/view?usp=sharing"
+                          >LSA</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Week 14</td>
+                <td>Passive Interface dan Route Filter</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1UoLGvCBWbZesN9HyG5K1aZKnO9DutsdS/view?usp=sharing"
+                          >Passive Interface dan Route Filter</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Week 15</td>
+                <td>VLAN</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1dLPPVV-5IvMPF570oc7OH1sB54wFRXCF/view?usp=sharing"
+                          >VLAN</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Week 16</td>
+                <td>UAS</td>
+                <td>
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-secondary dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      Lihat
+                    </a>
+
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" target="_blank" href="#"
+                          >UAS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td>
+                  <a
+                    href="https://meet.google.com/awf-auun-hhh"
+                    target="_blank"
+                    class="btn btn-info text-white text-nowrap"
+                    ><i class="fas fa-video"></i> Google Meet</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="offcanvas.js"></script>
+  </body>
+</html>
